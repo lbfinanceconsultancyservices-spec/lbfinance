@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>L B Finance & Consultancy Services</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: linear-gradient(to right, #1e3a8a, #0ea5e9);
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      color: #facc15;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+    }
+
+    .highlight {
+      color: #facc15;
+      font-weight: bold;
+    }
+
+    .contact {
+      background: #0ea5e9;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    button {
+      background: #facc15;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #fde047;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>L B Finance & Consultancy Services</h1>
+  <p>Serving Investors with Trust Since 1980</p>
+</header>
+
+<section>
+
+  <div class="card">
+    <h2>About Us</h2>
+    <p>
+      We are a trusted <span class="highlight">NSE & BSE Sub Broker</span> with experience since 1980.
+      We provide complete financial and investment solutions.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Equity Trading</li>
+      <li>Futures & Options</li>
+      <li>Mutual Funds</li>
+      <li>Insurance</li>
+      <li>Portfolio Management</li>
+      <li>Private & Unlisted Equity</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Why Choose Us</h2>
+    <p>
+      ✔ 40+ Years Experience <br/>
+      ✔ Trusted Advisory <br/>
+      ✔ Professional Guidance <br/>
+      ✔ Strong Market Knowledge
+    </p>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91 9909944335</p>
+    <p>📧 lbfinanceconsultancyservices@gmail.com</p>
+
+    <button onclick="window.location.href='tel:+919909944335'">
+      Call Now
+    </button>
+  </div>
+
+</section>
+
+<footer>
+  Disclaimer: Investments are subject to market risk. Please read all documents carefully before investing.
+</footer>
+
+</body>
+</html>
